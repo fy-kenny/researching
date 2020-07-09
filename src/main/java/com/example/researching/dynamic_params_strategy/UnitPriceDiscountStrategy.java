@@ -13,8 +13,8 @@ public class UnitPriceDiscountStrategy implements DynamicParamsStrategy {
 
         // months
         int months = Integer.parseInt(args[0]);
-        float price = Float.parseFloat(args[1]);
-        float discount = Float.parseFloat(args[2]);
+        double price = Double.parseDouble(args[1]);
+        double discount = Double.parseDouble(args[2]);
 
         return BigDecimal.valueOf(months * price - discount);
     }

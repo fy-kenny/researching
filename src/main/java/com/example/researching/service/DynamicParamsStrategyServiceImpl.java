@@ -20,9 +20,9 @@ public class DynamicParamsStrategyServiceImpl implements DynamicParamsStrategySe
     }
 
     @Override
-    public float calculateFee(String... args) {
+    public BigDecimal calculateFee(String... args) {
 
         return this.dynamicLoadStrategyClass.calculateFee(args)
-                .setScale(2, RoundingMode.HALF_UP).floatValue();
+                .setScale(2, RoundingMode.HALF_UP);
     }
 }

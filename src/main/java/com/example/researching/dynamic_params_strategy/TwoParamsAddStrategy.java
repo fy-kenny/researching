@@ -11,8 +11,8 @@ public class TwoParamsAddStrategy implements DynamicParamsStrategy {
     @Override
     public BigDecimal exec(String... args) {
 
-        int arg0 = Integer.parseInt(args[0]);
-        int arg1 = Integer.parseInt(args[1]);
+        double arg0 = Double.parseDouble(args[0]);
+        double arg1 = Double.parseDouble(args[1]);
 
         return BigDecimal.valueOf(arg0 + arg1);
     }

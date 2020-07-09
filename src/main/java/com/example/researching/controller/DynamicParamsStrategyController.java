@@ -20,7 +20,7 @@ public class DynamicParamsStrategyController {
     }
 
     @GetMapping("/api/v1/dynamic-params-strategies/calculate-fee")
-    public Float calculateFee(String... args) {
+    public BigDecimal calculateFee(String... args) {
 
         return this.dynamicParamsStrategyService.calculateFee(args);
     }

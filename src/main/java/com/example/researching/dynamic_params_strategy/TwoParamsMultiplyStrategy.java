@@ -14,14 +14,10 @@ public class TwoParamsMultiplyStrategy implements DynamicParamsStrategy {
     @Override
     public BigDecimal exec(String... args) {
 
-        int arg1 = Integer.parseInt(args[1]);
-        int arg2 = Integer.parseInt(args[2]);
+        double arg0 = Double.parseDouble(args[0]);
+        double arg1 = Double.parseDouble(args[1]);
         String description = args[0];
 
-        log.info("You select purchase VIP ".concat(String.valueOf(arg1)).concat(" day，and per day ")
-                .concat(String.valueOf(arg2)).concat("$，")
-                .concat(description));
-
-        return BigDecimal.valueOf(arg1 * arg2);
+        return BigDecimal.valueOf(arg0 * arg1);
     }
 }
