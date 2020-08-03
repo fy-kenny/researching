@@ -4,6 +4,16 @@
 ### dynamic_params_strategy
 * Do a execution by the front end specified `Strategy` and the front end dynamic parameters, but it is not demonstrate design pattern `Strategy`.
 
+### pattern
+#### command
+* Command Pattern
+* The demo has two types of commands **Switcher** and **Tuner**
+* With devices **Light**, **AirConditioner**, **LightRemoteControl** and **AirConditionerRemoteControl** 
+* You can send commands by **real device** directly or **remote control**
+
+* Please Run the main class `Client` to see output in `console`
+* Try to add your commands and see output again
+
 
 ---
 ### Reference Documentation

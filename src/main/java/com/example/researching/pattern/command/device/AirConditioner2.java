@@ -1,4 +1,4 @@
-package com.example.pattern.command.device;
+package com.example.researching.pattern.command.device;
 
 import lombok.extern.slf4j.Slf4j;
 

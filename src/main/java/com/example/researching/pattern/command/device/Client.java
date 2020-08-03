@@ -1,6 +1,6 @@
-package com.example.pattern.command.device;
+package com.example.researching.pattern.command.device;
 
-import com.example.pattern.command.*;
+import com.example.researching.pattern.command.*;
 
 /**
  * @author Kenny Fang

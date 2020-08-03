@@ -1,6 +1,6 @@
-package com.example.pattern.command.device;
+package com.example.researching.pattern.command.device;
 
-import com.example.pattern.command.Tuner;
+import com.example.researching.pattern.command.Tuner;
 import lombok.extern.slf4j.Slf4j;
 
 /**

@@ -1,4 +1,4 @@
-package com.example.pattern.command;
+package com.example.researching.pattern.command;
 
 /**
  * @author Kenny Fang

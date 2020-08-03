@@ -1,7 +1,7 @@
-package com.example.pattern.command.device;
+package com.example.researching.pattern.command.device;
 
-import com.example.pattern.command.Command;
-import com.example.pattern.command.RemoteControl;
+import com.example.researching.pattern.command.Command;
+import com.example.researching.pattern.command.RemoteControl;
 
 /**
  * @author Kenny Fang

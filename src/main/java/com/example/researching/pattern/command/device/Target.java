@@ -1,4 +1,4 @@
-package com.example.pattern.command.device;
+package com.example.researching.pattern.command.device;
 
 /**
  * @author Kenny Fang
